@@ -1,4 +1,4 @@
-const mostrar_resultado = document.querySelector('.result')
+const mostrar_resultado = document.querySelector('.resultado')
 const mostrar_caracteres_digitados = document.querySelector('.typed-nums')
 const nums = document.querySelectorAll('button[data-char="num"]')
 const chars = document.querySelectorAll('button[data-char="char"]')

@@ -32,7 +32,7 @@ body {
     height: 100px;
     text-align: right;
 }
-.display .result {
+.display .resultado {
     color: var(--green-clr-10);
     font-size: 2rem;
     text-shadow: 0 0 .5rem var(--green-clr-10);
