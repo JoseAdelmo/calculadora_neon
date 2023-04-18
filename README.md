@@ -2,5 +2,4 @@
 
 Clique aqui para executar o projeto: https://joseadelmo.github.io/calculadora_neon/
 
-
-![Design sem nome (1)](https://user-images.githubusercontent.com/99682808/232891031-05b376d0-6e64-4c44-ad05-138335ff7a79.png)
+![Design sem nome (1)_Easy-Resize com](https://user-images.githubusercontent.com/99682808/232891409-84456be3-01d4-43be-88d0-5f2cea4065b4.jpg)
