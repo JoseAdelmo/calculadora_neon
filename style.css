@@ -1,0 +1,75 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    background-color: #151515;
+}
+:root {
+    --green-clr-10: rgb(0, 255, 0);
+    --green-clr-10:  rgba(0, 255, 0);
+}
+
+.container,
+.display {
+    width: clamp(300px, 90vw, 400px);
+    box-shadow: 0 0 .5rem var(--green-clr-10),
+                inset 0 0 .5rem var(--green-clr10);
+    border: 1px solid var(--green-clr-10);
+    border-radius: .5rem;
+    padding: 1rem;
+}
+.display {
+    width: 100%;
+    height: 100px;
+    text-align: right;
+}
+.display .result {
+    color: var(--green-clr-10);
+    font-size: 2rem;
+    text-shadow: 0 0 .5rem var(--green-clr-10);
+}
+.display .typed-nums {
+    color: var(--green-clr-10);
+    font-size: 1.2rem;
+}
+
+.chars {
+    margin-top: 1rem;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.row button {
+    flex-basis: 100%;
+    background-color: transparent;
+    color: var(--green-clr-10);
+    box-shadow: 0 0 .5rem var(--green-clr-10),
+                inset 0 0 .5rem var(--green-clr-10);
+    border: 1px solid var(--green-clr-10);
+    text-shadow: 0 0 .3rem var(--green-clr-10);
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: 200ms ease-in-out background-color,
+                200ms ease-in-out color;
+}
+.row button:hover {
+    background-color: var(--green-clr-10);
+    color: #151515;
+}
+.row button:active {
+    transform: scale(.9);
+}
