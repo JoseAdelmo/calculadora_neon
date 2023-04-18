@@ -3,4 +3,4 @@
 Clique aqui para executar o projeto: https://joseadelmo.github.io/calculadora_neon/
 
 
-![be168181-c107-4ab0-b658-774c6f0dabb9](https://user-images.githubusercontent.com/99682808/232890428-4a18c5e4-16d8-4786-acbe-b78325e12213.png)
+![Design sem nome (1)](https://user-images.githubusercontent.com/99682808/232891031-05b376d0-6e64-4c44-ad05-138335ff7a79.png)
